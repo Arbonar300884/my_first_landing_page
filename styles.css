@@ -1,0 +1,118 @@
+/* Reset */
+html, *, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Verdana, sans-serif;
+}
+/* ********** */
+
+/* Header Styles*/
+
+    /* Logo and links */
+
+.main_header{
+    padding: 1rem;
+    background-color: hsl(215, 28%, 17%);
+    color: hsl(220, 13%, 91%);
+}
+
+.container_1{
+    margin: 0.625rem 0.625rem 8rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container_1 .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_1 p{
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 1.65rem;
+    font-weight: bold;
+    color: hsl(63, 64%, 95%);
+}
+
+.container_1 img{
+    border-radius: 0.5rem;
+}
+
+.container_1 ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+
+.container_1 .nav_bar{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.container_1 li{
+    list-style: none;
+}
+
+.container_1 a{
+    text-decoration: none;
+    font-size: 1.45rem;
+    font-weight: bold;
+    color: hsl(220, 13%, 91%);
+}
+
+    /* Hero Main Text */
+.container_hero{
+    margin: 0.625rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 40%;
+}
+
+.container_2 h1{
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 3rem;
+    color: hsl(90, 17%, 98%);
+    font-weight: 900;
+}
+
+.container_2 p{
+    margin: 0;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.container_hero img{
+    border-radius: 0.5rem;
+}
+
+.container_2 button{
+    padding: 0.75rem 2.5rem;
+    border-radius: 0.45rem;
+    border: none;
+    background-color: hsl(215, 91%, 59%);
+    color: hsl(90, 17%, 98%);
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
