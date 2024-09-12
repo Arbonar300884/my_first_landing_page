@@ -167,6 +167,7 @@ body{
 }
 
 .container_4 img{
+    width: 100%;
     border-radius: 0.5rem;
     border: 5px solid hsl(215, 91%, 59%);
 }
